@@ -29,3 +29,7 @@ while y > 0:
 lowNum = 0
 highNum = 0
 mult = 0
+
+for i in range(low,high +1):
+    if i % mult == 0
+    print(i)
