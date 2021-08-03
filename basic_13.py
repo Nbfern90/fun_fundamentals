@@ -60,3 +60,89 @@ def max_min_avg(nums):
 
 
 max_min_avg([8, 6, 7, 5, 3, 0, 9])
+
+
+for i in range(0, 151):
+    print(i)
+
+for i in range(5, 1001, 5):
+    print(i)
+
+for i in range(1, 101):
+    if i % 10 == 0:
+        print("Coding Dojo")
+    elif i % 5 == 0:
+        print("Coding")
+    else:
+        print(i)
+
+sum = 0
+for i in range(1, 500001, 2):
+    sum += i  # this adds, sum = sum+i, everytime it loops it adds
+print(sum)
+
+for i in range(2018, -1, -4):
+    print(i)
+
+low = 2
+high = 9
+mult = 3
+
+for i in range(2, 10):
+    if i % 3 == 0:
+        print(i)
+
+
+# functions II
+# 1
+def countdown(num):
+    holder = []
+    for i in range(num, -1, -1):
+        holder.append(i)
+    return holder
+
+
+print(countdown(5))
+
+# 2
+
+
+def print_and_return(list):
+    print(list[0])
+    return list[1]
+
+
+# 3
+print(print_and_return([1, 2]))
+
+
+def first_plus_length(list):
+    return list[0] + len(list)
+
+
+print(first_plus_length([15, 2, 3, 4, 5]))
+
+# 4
+
+
+def values_greater_than_second(list):
+    if len(list) < 2:
+        return False
+    new_list = []
+    for i in range(0, len(list)):
+        if list[i] > list[1]:
+            new_list.append(list[i])
+    print(len(new_list))
+    return new_list
+
+# 5
+
+
+def length_and_value(size, value):
+    new_list = []
+    for i in range(0, size):
+        new_list.append(value)
+    return new_list
+
+
+print(length_and_value(4, 7))
