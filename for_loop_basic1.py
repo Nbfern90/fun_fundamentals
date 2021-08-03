@@ -4,10 +4,8 @@ while count <= 150:
     print(count)
     count += 1
 # 2
-multiple = 5
-while multiple <= 1000:
-    print(multiple)
-    multiple *= 5
+for i in range(5,1001,5):
+    print(i)
 # 3
 for i in range(1, 101, 1):
     if i % 5 == 0:
